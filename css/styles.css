@@ -1,0 +1,73 @@
+/* Styles pour le diaporama daccueil */
+.diaporamadaccueuil {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* a la une */
+.alaune {
+    text-align: center;
+}
+
+/* Styles pour les boutons */
+.prev, .next {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.prev:hover, .next:hover {
+    background-color: #ddd;
+}
+
+
+body {
+    background-color: #f0f0ff; /* Exemple de bleu très clair (fond de la page) */
+}
+/*centrage du logo bmw */
+/* Centrer le logo horizontalement et verticalement */
+.logo {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    height: 248px; /* Ajustez la hauteur selon vos besoins */
+}
+
+/* Ajuster la largeur du logo si nécessaire */
+.logo img {
+    max-width: 100%; /* Assurez-vous que le logo ne dépasse pas la largeur du conteneur */
+}
+/* Style de la barre de navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between; /* Espace uniformément les éléments */
+}
+
+nav ul li {
+    margin: 0; /* Supprime la marge des éléments de liste */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px; /* Espacement interne des boutons */
+    background-color: #4B0082; /* Violet foncé pour les boutons */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s ease; /* Transition fluide pour le survol */
+}
+
+nav a:hover {
+    background-color: #800080; /* Violet plus foncé au survol */
+}
